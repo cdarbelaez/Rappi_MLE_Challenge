@@ -1,0 +1,12 @@
+## Despliegue automático (CD)
+
+Este proyecto incluye un workflow `.github/workflows/deploy.yml` que permite:
+
+- Construir la imagen con `gcloud builds submit`
+- Desplegar automáticamente a Google Cloud Run
+
+Para que funcione, se deben configurar estos secretos en GitHub:
+- `GCP_SA_KEY`: JSON de la cuenta de servicio
+- `project_id`, `region`, `Cloud Run` ya creados en GCP
+
+> Este workflow no se ejecuta automáticamente fuera de GitHub, pero puedes revisarlo como ejemplo de buenas prácticas de CD.
