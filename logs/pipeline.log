@@ -1,1 +1,10 @@
 
+2025-07-20 16:16:30,146 - INFO - Iniciando pipeline de entrenamiento
+2025-07-20 16:16:30,146 - INFO - Cargando dataset desde 'data/train.csv'
+2025-07-20 16:16:30,167 - INFO - Aplicando preprocesamiento al dataset
+2025-07-20 16:16:30,184 - INFO - Entrenando y exportando modelo A (baseline)
+2025-07-20 16:16:30,234 - INFO - Entrenando y exportando modelo B (mejorado)
+2025-07-20 16:16:30,401 - INFO - Pipeline completado exitosamente
+2025-07-20 16:16:31,424 - INFO - Tiempo total de ejecución: 1.28 segundos
+2025-07-20 16:16:31,425 - INFO - Uso de memoria: 113.82 MB
+2025-07-20 16:16:31,425 - INFO - Uso de CPU: 57.90 %
